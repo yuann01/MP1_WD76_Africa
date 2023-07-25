@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<style>
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+/* .navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+} */ 
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+.mask-custom2 {
+  backdrop-filter: blur(50px);
+  background-color: rgba(255, 255, 255, .15);
+}
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+  font-family: 'Lilita One', cursive;
+}
+body{
+    background-image: url(imgmp1/backgroundk.jpeg);
+    width: 100;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hometitle{
+    text-align: center;
+}
+.hometitle h1{
+    font-size: 150px;
+    color: #fff;
+    font-style: bold;
+    font-family: 'Ysabeau SC', sans-serif;
+    letter-spacing: 7px;
+
+}
+.hometitle p{
+    font-size: 50px;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Ysabeau SC', sans-serif;
+    letter-spacing: 3px;
+}
+#spotpage .nav-item{
+  font-size: 30px;
+    font-family: 'Bacasime Antique', serif;
+    letter-spacing: 2px;
+}
+#spotpage p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.btn-white:hover {
+    color: #fff;
+    background-color: white;
+    border-color: white;
+}
+/* .carousel-item{
+  font-family: 'El Messiri', sans-serif;
+}
+.modal-title{
+  font-family: 'El Messiri', sans-serif;
+} */
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="MINI PROJ 1.html"><span style="color: #fff;">ka</span><span style="color: #5e9693;">FOG</span><span style="color: #fff;">way</span></a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#home">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="home">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="MP1_About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="MP1_Spotss.html">Famous Spots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="MP1_Book.html">Book now!</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-flex flex-row">
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.facebook.com/juanafrica512">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://twitter.com/juaanafrica">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.instagram.com/africa_juan/">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- end of navbar -->
+      <!-- navbar end -->
+      <!-- tabs -->
+       <!-- carousel -->
+    <div class="container">
+    <div class="carousel slide" id="carouselsamp" data-bs-ride="carousel">
+      <!-- carouselindicator -->
+      <div class="carousel-indicators">
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="0" class="active">
+
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="1">
+
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="2">
+
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="3">
+          
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="4">
+      </button>
+
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="5">
+
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="6">
+
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="7">
+          
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="8">
+
+      </button>
+      <button data-bs-target="#carouselsamp" data-bs-slide-to="9">
+
+      </button>
+      <!-- carouselindicator end -->
+      <!-- start from 0 -->
+  </div>
+      <!-- carouselbod -->
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="imgmp1/bag1.jpg" alt="" class="d-block vh-100 w-100">
+              <div class="carousel-caption d-block d-none d-md-block">
+                  <h1>Burnam Park</h1>
+                  <p>Enjoy a relaxing day by the lake, ride a boat, rent a bike, or have a picnic amidst beautiful gardens</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</a>
+              </div>               
+          </div>
+          <div class="carousel-item">
+              <img src="imgmp1/bag2.jpg" alt="" class="d-block vh-100 w-100">
+              <div class="carousel-caption d-block d-none d-md-block">
+                  <h1>The Mansion</h1>
+                  <p>Admire the impressive architecture of the presidential summer residence and take photos at the iconic entrance.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal2">Learn More</a>
+              </div>     
+          </div>
+          <div class="carousel-item">
+              <img src="imgmp1/bag3.jpg" alt="" class="d-block vh-100 w-100">
+              <div class="carousel-caption d-block d-none d-md-block">
+                  <h1>Mines View Park</h1>
+                  <p>Capture breathtaking panoramic views of the mining town and Cordillera mountains.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal3">Learn More</a>
+              </div>     
+          </div>
+          <div class="carousel-item">
+              <img src="imgmp1/bag4.jpg" alt="" class="d-block vh-100 w-100">
+              <div class="carousel-caption d-block d-none d-md-block">
+                  <h1>Session Road</h1>
+                  <p>Experience Baguio's bustling main street with various shops, restaurants, and entertainment.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal4">Learn More</a>
+              </div>     
+          </div>
+          <div class="carousel-item">
+            <img src="imgmp1/bag5.jpg" alt="" class="d-block vh-100 w-100">
+            <div class="carousel-caption d-block d-none d-md-block">
+                <h1 style="font-family: font-family: 'El Messiri', sans-serif;:">Botanical Garden</h1>
+                  <p>Immerse yourself in nature and learn about the Cordilleran culture.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal5">Learn More</a>
+            </div>     
+          </div>  
+          <div class="carousel-item">
+              <img src="imgmp1/bag6.jpg" alt="" class="d-block vh-100 w-100">
+              <div class="carousel-caption d-block d-none d-md-block">
+                  <h1>Camp John Hay</h1>
+                  <p>Explore the historic former rest and recreation facility and enjoy its amenities.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal6">Learn More</a>
+              </div>     
+          </div>
+          <div class="carousel-item">
+            <img src="imgmp1/bag7.2.jpg" alt="" class="d-block vh-100 w-100">
+            <div class="carousel-caption d-block d-none d-md-block">
+                <h1>Wright Park and The Riding Circle</h1>
+                  <p>Watch skilled horseback riders or enjoy a horse ride yourself.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal7">Learn More</a>
+            </div>     
+        </div>
+        <div class="carousel-item">
+            <img src="imgmp1/bag8.jpg" alt="" class="d-block vh-100 w-100">
+            <div class="carousel-caption d-block d-none d-md-block">
+                <h1>Tam-Awan Village</h1>
+                  <p>Discover the indigenous culture of the Cordillera tribes.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal8">Learn More</a>
+            </div>     
+        </div>
+        <div class="carousel-item">
+            <img src="imgmp1/bag9.jpg" alt="" class="d-block vh-100 w-100">
+            <div class="carousel-caption d-block d-none d-md-block">
+                <h1>BenCab Museum</h1>
+                  <p>Appreciate contemporary Filipino art amidst stunning natural surroundings.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal9">Learn More</a>
+            </div>     
+        </div>
+        <div class="carousel-item">
+            <img src="imgmp1/bag10.jpg" alt="" class="d-block vh-100 w-100">
+            <div class="carousel-caption d-block d-none d-md-block">
+                <h1>Strawberry Farm</h1>
+                  <p>Experience strawberry picking and savor fresh strawberries and strawberry-based products.</p>
+                  <a class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#modal10">Learn More</a>
+            </div>     
+        </div>
+          </div>
+      </div>
+      <!-- carouselbod -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselsamp" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselsamp" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </button>
+  </div>
+</div>
+<!-- end of carousel -->
+<div class="modalss">
+<div class="modal fade text-center" id="modal1">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">Burnam Park</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag1.2.jpg" alt="">
+          <h2>Burnam Park</h2>
+          <p>Located at the heart of Baguio City, Burnham Park is a picturesque urban park offering various recreational activities. Visitors can enjoy boating in the man-made lake, rent bicycles, have picnics, or simply take a leisurely stroll amidst beautiful gardens and tall pine trees.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal1 -->
+<!-- modal 2-->
+<div class="modal fade text-center" id="modal2">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">The Mansion</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag2.1.jpg" alt="">
+          <h2>The Mansion</h2>
+          <p>This grand presidential mansion is the official summer residence of the President of the Philippines. The Mansion showcases elegant architecture, manicured gardens, and a magnificent façade. Although visitors cannot enter the building itself, they can take pictures in front of it and enjoy the scenic surroundings.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal2 -->
+<!-- modal 3-->
+<div class="modal fade text-center" id="modal3">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">Mines View Park</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag3.3.jpg" alt="">
+          <h2>Mines View Park</h2>
+          <p>Situated on a hilltop, Mines View Park offers breathtaking panoramic views of Baguio's mining town and the Cordillera Mountains. Visitors can have their photos taken in traditional Igorot attire, shop for souvenirs at the local market, and enjoy snacks while savoring the picturesque landscapes.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal3 -->
+<!-- modal 4-->
+<div class="modal fade text-center" id="modal4">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">Session Road</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag4.1.jpg" alt="">
+          <h2>Session Road</h2>
+          <p>Known as the main commercial street in Baguio, Session Road offers a vibrant atmosphere with numerous shops, restaurants, and cafes. Visitors can explore the local boutiques, indulge in delicious street food, or simply take a stroll and immerse themselves in the city's bustling vibe.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal4 -->
+<!-- modal 5-->
+<div class="modal fade text-center" id="modal5">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">Botanical Garden</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag5.1.jpg" alt="">
+          <h2>Botanical Garden</h2>
+          <p>The Botanical Garden in Baguio showcases a variety of plants, flowers, and trees, both indigenous and exotic. It features charming walkways, stone steps, and ethnic huts representing the different cultural groups in the region. Visitors can take a leisurely walk, learn about the local flora, and appreciate the natural beauty.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal5 -->
+<!-- modal6 -->
+<div class="modal fade text-center" id="modal6">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="title">Camp John Hay</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag6.5.jpg" alt="">
+          <h2>Camp John Hay</h2>
+          <p>Step into history at Camp John Hay, a former rest and recreation facility for the United States Armed Forces. Today, it's a charming resort complex that features a golf course, luxurious accommodations, and a variety of recreational activities. Don't miss the Bell House and Amphitheater for an enriching experience.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal1 -->
+<!-- modal 2-->
+<div class="modal fade text-center" id="modal7">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">The Mansion</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag7.jpg" alt="">
+          <h2>The Mansion</h2>
+          <p>Horseback riding enthusiasts will delight in Wright Park's famous horse rides. You can also witness skilled horseback riders dressed in traditional Igorot attire at the Riding Circle. It's a unique and delightful sight to behold.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal2 -->
+<!-- modal 3-->
+<div class="modal fade text-center" id="modal8">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">Tam-Awan Village</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag8.1.jpg" alt="">
+          <h2>Tam-Awan Village</h2>
+          <p>Experience the indigenous culture of the Cordillera tribes at Tam-Awan Village. This reconstructed traditional village offers a glimpse into the customs, arts, and crafts of the region's native communities. Engage in workshops and demonstrations or simply revel in the serene surroundings.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal3 -->
+<!-- modal 4-->
+<div class="modal fade text-center" id="modal9">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">BenCab Museum</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag9.1.jpg" alt="">
+          <h2>BenCab Museum</h2>
+          <p>Art enthusiasts will find solace in the BenCab Museum. Nestled in the mountains, this museum showcases the works of national artist Benedicto Cabrera (BenCab) and various contemporary Filipino artists. The stunning view of the surrounding forest is an added bonus.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+<!-- endmodal4 -->
+<!-- modal 5-->
+<div class="modal fade text-center" id="modal10">
+  <div class="modal-dialog modal-lg">
+      <!-- sizes:modal-xl;fullscreen;lg;sm -->
+      <div class="modal-content">
+          <!-- modalhead -->
+          <div class="modal-header">
+              <h3 class="modal-title">Strawberry Farm</h3>
+          </div>
+          <!-- modalhead -->
+          <img src="imgmp1/bag10.1.jpg" alt="">
+          <h2>Strawberry Farm</h2>
+          <p>Head to nearby La Trinidad, Benguet, to experience strawberry picking at the Strawberry Farm. Enjoy the cool weather as you harvest fresh strawberries and savor other strawberry-based products like jams and desserts.</p>
+          <!-- modalfoot -->
+          <div class="modal-footer" data-bs-dismiss="modal">
+              <button class="btn btn-success">
+                  Go Back
+              </button>
+          </div>
+          <!-- modalfoot -->
+      </div>
+   </div>
+</div>
+</div>
+<!-- endmodal2 -->
+  </body>
+</html>

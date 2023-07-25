@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<style>
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+/* .navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+} */ 
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+.mask-custom2 {
+  backdrop-filter: blur(50px);
+  background-color: rgba(255, 255, 255, .15);
+}
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+  font-family: 'Lilita One', cursive;
+}
+body{
+    background-image: url(imgmp1/backgroundk.jpeg);
+    width: 100;
+    height: 100vh;
+    background-size: cover;
+}
+.hometitle{
+    text-align: center;
+}
+.hometitle h1{
+    font-size: 150px;
+    color: #fff;
+    font-style: bold;
+    font-family: 'Ysabeau SC', sans-serif;
+    letter-spacing: 7px;
+
+}
+.hometitle p{
+    font-size: 50px;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Ysabeau SC', sans-serif;
+    letter-spacing: 3px;
+}
+#abtpage .nav-item{
+    font-size: 30px;
+    font-family: 'Bacasime Antique', serif;
+    letter-spacing: 2px;
+}
+#abtpage p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="MINI PROJ 1.html"><span style="color: #fff;">ka</span><span style="color: #5e9693;">FOG</span><span style="color: #fff;">way</span></a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#home">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="home">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="MP1_About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="MP1_Spotss.html">Famous Spots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="MP1_Book.html">Book now!</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav d-flex flex-row">
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://www.facebook.com/juanafrica512">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://twitter.com/juaanafrica">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://www.instagram.com/africa_juan/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- tabs -->
+    <div class="container mask-custom2 h-100" id="abtpage">
+        <br><br><br><br><br>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#about" class="nav-link active" data-bs-toggle="tab"><span style="color:#417876;">About</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#mission" class="nav-link" data-bs-toggle="tab"><span style="color:#417876;">Mission & Commitment</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#expect" class="nav-link" data-bs-toggle="tab"><span style="color:#417876;">What We Offer</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#join" class="nav-link" data-bs-toggle="tab"><span style="color:#417876;">Join Us!</span></a>
+            </li>
+        </ul>
+    <div class="tab-content text-dark">
+            <div class="tab-pane fade show active" id="about">
+                <h4 class="mt-2">About</h4>
+                <hr>
+                <p>At Baguio Philippines, we take immense pride in showcasing the enchanting beauty and vibrant culture of the City of Pines. As your ultimate guide to this picturesque destination, we strive to provide you with an unforgettable journey through the heart of the Cordillera Mountains.</p>
+                <br>
+                <h4 class="mt-2">Why Baguio?</h4>
+                <hr>
+                <p>
+                    <ul>
+                        <li>
+                            <b>Spring climate all throughout the year:</b> Escape the hot and humid temperature in the lowland areas of the Philippines by vacationing in Baguio City -- a mere 6-8 hours bus ride from Cubao, Metro Manila. The long trip will be worth it as you smell and sense the coolness of this City of Pines, another alias of Baguio City -- next to being the country's Summer Capital. 
+                        </li>
+                        <li>
+                            <b>Irresistible places to visit:</b> Take delight in the artworks in Bencab Museum; get a kick out of biking/boating/strolling/food tripping in Burnham Park; relish meeting the people in the Philippine Military Academy; take pictures with tribal yet colorful Igorot's in Mines View Park; do exciting horseback riding in Wright Park; adore the greenery as well as flowers in the Botanical garden!
+                        </li>
+                        <li>
+                            <b>Food:</b> For its myriad of scrumptious food available in several highly commendable restaurants -- Amare La Cucina (Italian/Pizza/Vegetarian); Good Taste Restaurant (Chinese/Filipino/Asian); Ketchup Food Community (American/Filipino/Asian); Hill Station (Filipino/Spanish/Vegetarian); Cafe By the Ruins (Filipino/Cafe/Asian); Forest House (Italian/American/Filipino).
+                        </li>
+                    </ul>
+                </p>
+
+            </div>
+            <div class="tab-pane fade" id="mission">
+                <h4 class="mt-2">Mission & Commitment</h4>
+                <hr>
+                <h5>Mission</h5>
+                <p>Our mission is simple: to be the go-to resource for all things Baguio. We are dedicated to promoting the city's unique attractions, local businesses, and hidden gems that make it a truly exceptional place to visit and live. Through our platform, we aim to inspire travelers, adventurers, and locals alike to explore the wonders of Baguio, ensuring their experiences are both enriching and memorable.</p>
+                <h5>Commitment</h5>
+                <p>As stewards of Baguio's natural and cultural heritage, we are committed to promoting responsible and sustainable tourism practices. We strive to advocate for the preservation of the city's environment and cultural identity, ensuring that future generations can also revel in the wonders of this mountain paradise.</p>
+            </div>
+            <div class="tab-pane fade" id="expect">
+                <h4 class="mt-2">What We Offer</h4>
+                <hr>
+                <p>
+                    <ul>
+                        <li>
+                            Comprehensive Travel Information: Whether you're a first-time visitor or a seasoned traveler, we offer comprehensive and up-to-date travel information to help you plan your trip efficiently. From the best time to visit and must-see attractions to practical tips on transportation and accommodation, we've got you covered.
+                        </li>
+                        <li>
+                            Discovering Hidden Gems: Baguio is more than just the popular tourist spots. Our team is dedicated to uncovering the lesser-known, yet equally captivating, places that are off the beaten path. Be ready to explore the city's charming cafes, scenic trails, local artisan shops, and everything in between.
+                        </li>
+                        <li>
+                            Supporting Local Businesses: We believe in the strength of the local community and the value of supporting homegrown businesses. On our platform, you'll find insights into the best local restaurants, handicraft shops, and cultural experiences that showcase the authentic essence of Baguio.
+                        </li>
+                        <li>Community Engagement: Baguio Philippines is not just a website; it's a community of like-minded individuals passionate about Baguio's unique beauty and culture. We encourage everyone to share their experiences, recommendations, and stories, fostering a sense of camaraderie and appreciation for this wonderful city.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="tab-pane fade" id="join">
+                <h4 class="mt-2">Join Us!</h4>
+                <hr>
+                <p><span>We invite you to embark on this journey with us as we celebrate Baguio's allure and the people who make it special. Whether you're a curious traveler, a proud local, or simply someone with a love for exploration, Baguio Philippines is your gateway to uncovering the magic that lies within the City of Pines.</span><br><br>
+
+                Let's embrace the adventure together and create lasting memories in one of the most captivating destinations in the Philippines - Baguio!</p>
+            </div>
+        </div>
+      </div>
+      <!-- end of tabs -->
+    </body>
+    </html>
